@@ -9,6 +9,6 @@ def check_country(e):
         "fr" : "France"
     }
 
-country_code = document.getElementById("countries").value
+    country_code = document.getElementById("countries").value
 
-display(country.get(country_code, "Country code not found"), target = "output1")
+    display(country.get(country_code, "Country code not found"), target = "output1")
